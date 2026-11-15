@@ -1,0 +1,41 @@
+1. git init -b main
+Explanation: Creates a new local Git repository in the 'Project' folder with main as default branch.
+
+2. git add .
+Explanation: Stages all the new and modified/updated files so that they are ready to be commited.
+
+3. git commit -m "commit message"
+Explanation: Permanently saves the staged commit in the repo history.
+
+4. git branch feature
+Explanation: A new branch named 'feature' is created.
+
+5. git branch
+Explanation: To check current working branch.
+
+6. git checkout main / git checkout feature
+Explanation: This helps to switch between feature and main branch to commit the changes.
+
+7. git merge feature
+Explanation: Adds all the changes from feature branch into main branch.
+
+8. git log --oneline
+Explanation: Shows all the commits made in the repository in a simple one-line list view.
+
+9. git log
+Explanation: Shows all the commits made in the repository in more detailed manner. Includes author name, commit date. 
+
+10. git status
+Explanation: Shows the present status of the folder and also checks if any file are modified or untracked.
+
+11. git branch -M main
+Explanation: Creates a main branch in the GitHub repository
+
+12. git remote add origin <repository-URL>
+Explanation: Under the alias 'origin', this command connects the local Git repository to a remote GitHub public repository hosted on internet.
+
+13. git remote -v
+Explanation: Check which GitHub repository is active in the local Git repository.
+
+13. git push origin main (or git push origin feature)
+Explanation: This uploads all the local branch commits and repository history to the remote GitHub repository. 
